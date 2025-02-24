@@ -7,11 +7,11 @@ package tls
 import (
 	"bufio"
 	"crypto/ed25519"
-	"github.com/FISCO-BCOS/crypto/x509"
 	"encoding/hex"
 	"errors"
 	"flag"
 	"fmt"
+	"github.com/zhangyangMr/crypto/x509"
 	"io"
 	"io/ioutil"
 	"net"

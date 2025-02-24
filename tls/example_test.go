@@ -5,8 +5,8 @@
 package tls_test
 
 import (
-	"github.com/FISCO-BCOS/crypto/tls"
-	"github.com/FISCO-BCOS/crypto/x509"
+	"github.com/zhangyangMr/crypto/tls"
+	"github.com/zhangyangMr/crypto/x509"
 	"log"
 	"net/http"
 	"net/http/httptest"

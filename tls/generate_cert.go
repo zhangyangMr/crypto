@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build ignore
 // +build ignore
 
 // Generate a self-signed X.509 certificate for a TLS server. Outputs to
@@ -10,15 +11,15 @@
 package main
 
 import (
-	"github.com/FISCO-BCOS/crypto/ecdsa"
 	"crypto/ed25519"
-	"github.com/FISCO-BCOS/crypto/elliptic"
 	"crypto/rand"
 	"crypto/rsa"
-	"github.com/FISCO-BCOS/crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/pem"
 	"flag"
+	"github.com/zhangyangMr/crypto/ecdsa"
+	"github.com/zhangyangMr/crypto/elliptic"
+	"github.com/zhangyangMr/crypto/x509"
 	"log"
 	"math/big"
 	"net"

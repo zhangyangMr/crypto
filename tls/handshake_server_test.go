@@ -7,10 +7,10 @@ package tls
 import (
 	"bytes"
 	"crypto"
-	"github.com/FISCO-BCOS/crypto/elliptic"
 	"encoding/pem"
 	"errors"
 	"fmt"
+	"github.com/zhangyangMr/crypto/elliptic"
 	"io"
 	"net"
 	"os"

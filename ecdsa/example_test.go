@@ -5,11 +5,11 @@
 package ecdsa_test
 
 import (
-	"github.com/FISCO-BCOS/crypto/ecdsa"
-	"github.com/FISCO-BCOS/crypto/elliptic"
 	"crypto/rand"
 	"crypto/sha256"
 	"fmt"
+	"github.com/zhangyangMr/crypto/ecdsa"
+	"github.com/zhangyangMr/crypto/elliptic"
 )
 
 func Example() {

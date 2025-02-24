@@ -13,7 +13,7 @@ import (
 	"crypto/rc4"
 	"crypto/sha1"
 	"crypto/sha256"
-	"github.com/FISCO-BCOS/crypto/x509"
+	"github.com/zhangyangMr/crypto/x509"
 	"golang.org/x/crypto/chacha20poly1305"
 	"hash"
 )

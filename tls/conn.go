@@ -10,9 +10,9 @@ import (
 	"bytes"
 	"crypto/cipher"
 	"crypto/subtle"
-	"github.com/FISCO-BCOS/crypto/x509"
 	"errors"
 	"fmt"
+	"github.com/zhangyangMr/crypto/x509"
 	"io"
 	"net"
 	"sync"
@@ -583,12 +583,14 @@ func (c *Conn) readChangeCipherSpec() error {
 
 // readRecordOrCCS reads one or more TLS records from the connection and
 // updates the record layer state. Some invariants:
-//   * c.in must be locked
-//   * c.input must be empty
+//   - c.in must be locked
+//   - c.input must be empty
+//
 // During the handshake one and only one of the following will happen:
 //   - c.hand grows
 //   - c.in.changeCipherSpec is called
 //   - an error is returned
+//
 // After the handshake one and only one of the following will happen:
 //   - c.hand grows
 //   - c.input is set

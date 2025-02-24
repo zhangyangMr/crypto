@@ -7,12 +7,12 @@ package ecdsa
 import (
 	"bufio"
 	"compress/bzip2"
-	"github.com/FISCO-BCOS/crypto/elliptic"
 	"crypto/rand"
 	"crypto/sha1"
 	"crypto/sha256"
 	"crypto/sha512"
 	"encoding/hex"
+	"github.com/zhangyangMr/crypto/elliptic"
 	"hash"
 	"io"
 	"math/big"

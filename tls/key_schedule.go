@@ -5,10 +5,10 @@
 package tls
 
 import (
-	"github.com/FISCO-BCOS/crypto/elliptic"
 	"crypto/hmac"
 	"crypto/subtle"
 	"errors"
+	"github.com/zhangyangMr/crypto/elliptic"
 	"golang.org/x/crypto/cryptobyte"
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/hkdf"
