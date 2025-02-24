@@ -5,13 +5,13 @@
 package x509
 
 import (
-	"github.com/FISCO-BCOS/crypto/ecdsa"
 	"crypto/ed25519"
 	"crypto/rsa"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"errors"
 	"fmt"
+	"github.com/zhangyangMr/crypto/ecdsa"
 )
 
 // pkcs8 reflects an ASN.1, PKCS#8 PrivateKey. See

@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build ignore
 // +build ignore
 
 // This file is run by the x509 tests to ensure that a program with minimal
@@ -11,9 +12,9 @@ package main
 
 import (
 	"crypto/rand"
-	"github.com/FISCO-BCOS/crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/pem"
+	"github.com/zhangyangMr/crypto/x509"
 	"math/big"
 	"strings"
 	"time"

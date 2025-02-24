@@ -5,11 +5,11 @@
 package x509
 
 import (
-	"github.com/FISCO-BCOS/crypto/ecdsa"
-	"github.com/FISCO-BCOS/crypto/elliptic"
 	"encoding/asn1"
 	"errors"
 	"fmt"
+	"github.com/zhangyangMr/crypto/ecdsa"
+	"github.com/zhangyangMr/crypto/elliptic"
 	"math/big"
 )
 

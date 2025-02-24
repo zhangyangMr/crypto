@@ -1,4 +1,4 @@
-module github.com/FISCO-BCOS/crypto
+module github.com/zhangyangMr/crypto
 
 go 1.19
 
